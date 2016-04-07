@@ -1,0 +1,620 @@
+Manifest-Version: 1.0
+Export-Package: xsbt;uses:="xsbti.api,scala.tools.nsc,scala.runtime,sc
+ ala,scala.collection.mutable,scala.collection.immutable,xsbti,scala.c
+ ollection,scala.reflect.internal,scala.reflect.io,scala.reflect.api,s
+ cala.reflect.internal.util,scala.reflect,scala.collection.generic,sca
+ la.tools.nsc.settings,scala.tools.nsc.backend.icode,xsbti.compile,sca
+ la.tools.nsc.interactive,scala.tools.nsc.util,scala.tools.nsc.io,scal
+ a.tools.nsc.reporters,scala.tools.nsc.interpreter,scala.reflect.inter
+ nal.settings,scala.reflect.internal.tpe,scala.tools.nsc.doc";version=
+ "0.13.2.v-2_11-20140723-2242"
+Built-By: dragos
+Tool: Bnd-1.50.0
+Bundle-Name: Sbt Compiler Interface for Eclipse
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: scala-ide.org
+Build-Jdk: 1.6.0_65
+Bundle-Version: 0.13.2.v-2_11-20140723-2242
+Bnd-LastModified: 1406148174932
+Bundle-ManifestVersion: 2
+Bundle-Description: The Scala Toolchain for Scala Eclipse plugins
+Import-Package: scala;version="[2.11,3)";resolution:=optional,scala.co
+ llection;version="[2.11,3)";resolution:=optional,scala.collection.gen
+ eric;version="[2.11,3)";resolution:=optional,scala.collection.immutab
+ le;version="[2.11,3)";resolution:=optional,scala.collection.mutable;v
+ ersion="[2.11,3)";resolution:=optional,scala.reflect;version="[2.11,3
+ )";resolution:=optional,scala.reflect.api,scala.reflect.internal,scal
+ a.reflect.internal.settings,scala.reflect.internal.tpe,scala.reflect.
+ internal.util,scala.reflect.io,scala.runtime;version="[2.11,3)";resol
+ ution:=optional,scala.tools.nsc,scala.tools.nsc.backend.icode,scala.t
+ ools.nsc.doc,scala.tools.nsc.interactive,scala.tools.nsc.interpreter,
+ scala.tools.nsc.io,scala.tools.nsc.reporters,scala.tools.nsc.settings
+ ,scala.tools.nsc.util,xsbti;resolution:=optional,xsbti.api;resolution
+ :=optional,xsbti.compile;resolution:=optional
+Bundle-DocURL: http://scala-ide.org
+Bundle-SymbolicName: org.scala-ide.sbt.compiler.interface
+Embed-Dependency: *;scope=compile|runtime;inline=true
+Embed-StripVersion: true
+
+Name: xsbt/API$ApiPhase$$anonfun$1.class
+SHA1-Digest: jJAEiYhigyQa0wZKfkTIVhZWA5k=
+
+Name: xsbt/Dependency$ExtractDependenciesByMemberRefTraverser$$anonfun
+ $traverse$2.class
+SHA1-Digest: tiWoXD8hDXXorpnz4soTl93glIg=
+
+Name: xsbt/Compat$MiscCompat.class
+SHA1-Digest: m7cIk/c5TLbf9R5SZ20t2aGkyFk=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$processDefinitions$1.c
+ lass
+SHA1-Digest: luOiFcM4O/1XbApbKFY/etPT5Ac=
+
+Name: xsbt/CallbackGlobal$$anonfun$outputDirs$1.class
+SHA1-Digest: LLSLytsLpciqGAK7u0mPI3yrDS8=
+
+Name: xsbt/ExtractAPI$SuppressSymbolRef.class
+SHA1-Digest: oOVZwg9ZGHS0CiKjl0WuVPYw6OQ=
+
+Name: xsbt/Dependency$ExtractDependenciesByMemberRefTraverser.class
+SHA1-Digest: sVH+ZpQNUDRn8rTywTwj2rnoamI=
+
+Name: xsbt/ExtractAPI$$anonfun$typeParameters$1.class
+SHA1-Digest: JhbMgPatDASNRMg+2ohPyD2Sfsc=
+
+Name: xsbt/CallbackGlobal$$anonfun$addInheritedDependencies$1.class
+SHA1-Digest: YNbnbHxiiU6m3xBCRiWiQ9coHP4=
+
+Name: xsbt/ExtractAPI$existentialRenamings$.class
+SHA1-Digest: n4mqhIkqA8953vrigThTus1CkE4=
+
+Name: xsbt/Dependency$ExtractDependenciesByInheritanceTraverser$$anonf
+ un$traverse$3$$anonfun$apply$7.class
+SHA1-Digest: ElYlco3SbWbXfcequOVZukEhR9M=
+
+Name: xsbt/Log$.class
+SHA1-Digest: MM0ik9PEjCx0nkhCw4M9GXh2kIU=
+
+Name: xsbt/Analyzer.class
+SHA1-Digest: 6XMzxK9cBD488fYrOls3KcA9oVM=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$logUnreportedWarnings$2$$
+ anonfun$apply$4.class
+SHA1-Digest: YrVbksOfz7M9AP8j/zI4cDVXUlk=
+
+Name: xsbt/ExtractAPI$$anonfun$classLike$1.class
+SHA1-Digest: Tiw1wU5jWk+fOIsGQedOf/saFtQ=
+
+Name: xsbt/Dependency$ExtractDependenciesByInheritanceTraverser$$anonf
+ un$2.class
+SHA1-Digest: b3XyuKW/AioLtNWKKch0VpEtwlQ=
+
+Name: xsbt/ExtractAPI$$anonfun$annotations$1$$anonfun$apply$1.class
+SHA1-Digest: gfQn9dsMUKAESWPwIalIEM3ZwOU=
+
+Name: xsbt/API$ApiPhase$$anonfun$run$1.class
+SHA1-Digest: jCUI5u42kdLcB0NyexasfSqAe2g=
+
+Name: xsbt/API$ApiPhase.class
+SHA1-Digest: zxtyBzsz6DsMDB++eCbyWsPd0zM=
+
+Name: META-INF/maven/org.scala-ide/org.scala-ide.sbt.compiler.interfac
+ e/pom.xml
+SHA1-Digest: 6iu/yxv2obpfUwxMEi0TxwzAXco=
+
+Name: xsbt/ExtractAPI$$anonfun$mkStructure$4.class
+SHA1-Digest: wAcQGCQkSMdEYNw5wGL2KUJxv2o=
+
+Name: xsbt/ConsoleInterface$$anon$2$$anon$1.class
+SHA1-Digest: iPzI8hjgW7/1QzckO+SFEMkqsZc=
+
+Name: xsbt/Message$.class
+SHA1-Digest: kCNeMYD5HcJ0hLE+qvJXyQxPVio=
+
+Name: META-INF/maven/org.scala-ide/org.scala-ide.sbt.compiler.interfac
+ e/pom.properties
+SHA1-Digest: xmBjAWzEG+9U8gyRLnLPNqv5f4M=
+
+Name: xsbt/API$ApiPhase$$anonfun$processScalaUnit$3.class
+SHA1-Digest: eo+Ni6Q+3dtrNxYE0zQOKTOkYn0=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$getOutputClass$1.class
+SHA1-Digest: /7pWvEn8TnE4xYOf5qZZV0484uk=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$logUnreportedWarnings$2.c
+ lass
+SHA1-Digest: mCGVhDXFPlSvv7Lr7JsIlwV9LU0=
+
+Name: xsbt/ExtractUsedNames$$anonfun$extractByTreeWalk$1.class
+SHA1-Digest: 4ZdLll+P//yYu2wqSOc6ZyExgQw=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$1.
+ class
+SHA1-Digest: ZSb6VkEGbXsy4Y854Si8K3nDR1Q=
+
+Name: xsbt/ExtractAPI.class
+SHA1-Digest: S5fk4Xk76KY+Q8X9T8PvSSenhao=
+
+Name: xsbt/API$ApiPhase$$anonfun$processScalaUnit$2.class
+SHA1-Digest: 6mhBshHr/R+STq5VxIIswTRUaoM=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$findClass$2.class
+SHA1-Digest: s7gAjsZpj7SHfQlZNclRAIsdesQ=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$xsbt$Dep
+ endency$DependencyPhase$$anonfun$$processDependency$1$1.class
+SHA1-Digest: lwbOa/ASp+jBFBY6uUzNNaOpOiM=
+
+Name: xsbt/Analyzer$AnalyzerPhase$$anonfun$run$2$$anonfun$apply$1$$ano
+ nfun$addGenerated$1$3.class
+SHA1-Digest: e7aryNX9uV2j9o1Ez5YoT3OCcBg=
+
+Name: xsbt/CachedCompiler0$Compiler.class
+SHA1-Digest: /TZg+rbIVjsmHKtGoV/Vj3p/DyU=
+
+Name: xsbt/MakeSettings$.class
+SHA1-Digest: Ty+CGMTASRk25g7HLgcFL1idtIo=
+
+Name: xsbt/LocateClassFile$$anonfun$flatname$1.class
+SHA1-Digest: YzXLvPegLibBp1oNJ/g1qp4qjUw=
+
+Name: xsbt/GlobalCompat$RunCompat$class.class
+SHA1-Digest: kNNyfihBpWrmQTz+4DW2V4Dwg2w=
+
+Name: xsbt/GlobalCompat$RunCompat.class
+SHA1-Digest: OeWSE4hE3dKOODYG+5/o1JDLjnc=
+
+Name: xsbt/ExtractAPI$$anonfun$structure$1.class
+SHA1-Digest: U9u8cbLj+cJumPeyEADv3zvzA1A=
+
+Name: xsbt/InterfaceCompileCancelled.class
+SHA1-Digest: WAo6rColx1dmvsU7lqvsSraoNMs=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$1.class
+SHA1-Digest: XX8aRPxoPloFrO9At08OHrmWF2c=
+
+Name: xsbt/Runner$forScope$DocFactory$GlobalCompat$class.class
+SHA1-Digest: BwN1gNnQyrHoWa3Sr+jWa12RryM=
+
+Name: xsbt/ConsoleInterface$$anon$2$$anonfun$bind$1$1.class
+SHA1-Digest: /NcID5nzSx0SbF3GNM/zRqBYKhs=
+
+Name: xsbt/Runner$forScope$DocFactory$compiler$DefaultDocDriver.class
+SHA1-Digest: 7VPaC97fCMA+e2O4vxdRO3zV7lU=
+
+Name: xsbt/CachedCompiler0$$anonfun$3.class
+SHA1-Digest: DBjp0lTbNvVEy/buMRXem2K0hMg=
+
+Name: xsbt/Log$$anonfun$settingsError$1.class
+SHA1-Digest: WrrZSW7pnzeSFJ80iHg+6A2EJrg=
+
+Name: xsbt/API$TopLevelHandler.class
+SHA1-Digest: xQLf3BtvC9V4ynJ2DgrFVlcFKP0=
+
+Name: xsbt/ExtractUsedNames$$anonfun$xsbt$ExtractUsedNames$$handleTree
+ Node$1$2.class
+SHA1-Digest: 93+T+Ztd0kl1czoL+30AsDGJJ/M=
+
+Name: xsbt/MakeSettings$$anonfun$1.class
+SHA1-Digest: iTneAt9vkF2S1GnEZv2l1OLaQHo=
+
+Name: xsbt/ExtractAPI$$anonfun$annotations$1.class
+SHA1-Digest: aPOSiVwoGyb4rjVdAvs5lGmIt6U=
+
+Name: xsbt/CachedCompiler0$$anonfun$commandArguments$1.class
+SHA1-Digest: PCmSDRDbllHwU9FrhrNaK7NRsro=
+
+Name: xsbt/CachedCompiler0$Compiler$dummy$.class
+SHA1-Digest: cjmWWKp5WCWUuYzLxNiEyzmrDN0=
+
+Name: xsbt/CachedCompiler0$$anonfun$processUnreportedWarnings$1.class
+SHA1-Digest: 9Fk5gshUMoe+rWjZEbpN4RaP0KQ=
+
+Name: xsbt/Runner$forScope$DocFactory.class
+SHA1-Digest: EEIGr0/JzgP4ZUVXMCAPNcxhigE=
+
+Name: xsbt/CachedCompiler0$$anonfun$handleCompilationCancellation$1.cl
+ ass
+SHA1-Digest: p/GSXWqPHCzncIjIGk6JwXv2Ppk=
+
+Name: xsbt/CallbackGlobal.class
+SHA1-Digest: CdWzCqTMuR/rolNOXurH+jsKnlk=
+
+Name: xsbt/Message$$anon$1.class
+SHA1-Digest: 7oO5g0u6OMXfYmBXNITSkCO7xlY=
+
+Name: xsbt/WeakLog$$anonfun$apply$1.class
+SHA1-Digest: dhrUrNFtZMHwVH7vawvHhbgOSXM=
+
+Name: xsbt/GlobalCompat$class.class
+SHA1-Digest: 6rC4IhMc5wykSJPsPNptqLS8Xlo=
+
+Name: xsbt/CachedCompiler0.class
+SHA1-Digest: rVmQJxENLwIcsJExBEd18pNLz/Y=
+
+Name: xsbt/ConsoleInterface.class
+SHA1-Digest: EecE8F9u5dB5t79KEMhapYYIRJY=
+
+Name: xsbt/Dependency$ExtractDependenciesByInheritanceTraverser$$anonf
+ un$traverse$4.class
+SHA1-Digest: SsOuwgTbiQETXQH0m2UpiiIccF0=
+
+Name: xsbt/Runner$forScope$DocFactory$$anon$1.class
+SHA1-Digest: LqzjjIkdoqsjZDHPaUZqa95bVqo=
+
+Name: xsbt/API$TopLevelTraverser.class
+SHA1-Digest: dcWCltuw+vr4B4YlUO+ZYwB+yjw=
+
+Name: xsbt/Log.class
+SHA1-Digest: PiaSy8WBRKE9fd3TgAotlvAbN1o=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$processType$1.class
+SHA1-Digest: s5M0EN2FIm0QLIcZyu1mc+AMFZ4=
+
+Name: xsbt/MakeSettings$Compat$1.class
+SHA1-Digest: 0fNuzFiS+dQWMYrbOEaeW69tYm0=
+
+Name: NOTICE
+SHA1-Digest: /l6hTpbGqhZzLh8pRLnjNsYrPAQ=
+
+Name: xsbt/Command.class
+SHA1-Digest: pfzwuvRKgRE1uaJMZhmsmk27IDs=
+
+Name: xsbt/ExtractAPI$$anonfun$forceStructures$1.class
+SHA1-Digest: 1NHtkQt6iEsArzSyCEtm0q7RsOs=
+
+Name: xsbt/CachedCompiler0$Compat$1.class
+SHA1-Digest: d/u3FIFFx9WEXzMttFhpW7xdPaE=
+
+Name: xsbt/CachedCompiler0$CondWarnCompat$1.class
+SHA1-Digest: qUQ4thWc1ScHo2wSP4HbJp9FVVM=
+
+Name: xsbt/API$ApiPhase$$anonfun$run$2.class
+SHA1-Digest: aKhT9P8tr1rg+6IWnjb1smDctZk=
+
+Name: xsbt/ExtractUsedNames$tpnme$.class
+SHA1-Digest: vlRypbBQef3tDRFOAPyzh2QkeNM=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$4.
+ class
+SHA1-Digest: RjLOjejfSUGd8VP640I45LZ7PyY=
+
+Name: xsbt/API$.class
+SHA1-Digest: vTaBqg93ZUCvOZL5YtL1auvXY5w=
+
+Name: xsbt/ConsoleInterface$$anon$2$$anonfun$bind$1$2$$anonfun$apply$1
+ .class
+SHA1-Digest: oFltfOxHjE7/hUtVDqwgq7x+DR0=
+
+Name: xsbt/Dependency$$anonfun$xsbt$Dependency$$extractDependenciesByI
+ nheritance$1.class
+SHA1-Digest: wbKSv1mwZsqNztrrgVWCic4EsTg=
+
+Name: xsbt/Analyzer$AnalyzerPhase$$anonfun$run$2$$anonfun$apply$1.clas
+ s
+SHA1-Digest: D4HieetUe//vpQpc/RsLq/4drTI=
+
+Name: xsbt/CachedCompiler0$Compiler$apiExtractor$$anonfun$5.class
+SHA1-Digest: 2GGckKb9PuG5r+XCyOgqisBhHfY=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$3.
+ class
+SHA1-Digest: slTfcAW+wp0Cv4V9eSRh8bHLOHY=
+
+Name: xsbt/Analyzer$.class
+SHA1-Digest: Qv/sos6e/AiOfnttEfh7DPRnrgA=
+
+Name: xsbt/GlobalCompat.class
+SHA1-Digest: 0BfQ5AKyBZGcrM57KgN0NIPlO8k=
+
+Name: xsbt/Analyzer$AnalyzerPhase$$anonfun$run$2.class
+SHA1-Digest: 5GEK5DSfZSMM06sTLK2JdhV+qic=
+
+Name: xsbt/Log$$anonfun$settingsError$1$$anonfun$apply$1.class
+SHA1-Digest: 93a78U2rsQr/S22jgrjwL6Ol8+4=
+
+Name: xsbt/Command$$anonfun$apply$1.class
+SHA1-Digest: SC+6UQmDXhh+mPEDcHpl8qdX1fU=
+
+Name: xsbt/DelegatingReporter$$anonfun$1.class
+SHA1-Digest: D/zMPbVqGoRfQ2S+X9b/YSy5K/A=
+
+Name: xsbt/ExtractUsedNames.class
+SHA1-Digest: R37Vl0dfsRyWMxL67jfjnxkyDkM=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$types$1.class
+SHA1-Digest: CycN07h2PQ5D74uvk2M51vuuGsk=
+
+Name: xsbt/ExtractAPI$$anonfun$tparamID$1.class
+SHA1-Digest: graNLn9M7PBrHUU5E8/5slN4xRY=
+
+Name: xsbt/ConsoleInterface$$anon$2$Compat$2.class
+SHA1-Digest: hmTYINVzMrQnjK+ZDJ7ELQBW2EQ=
+
+Name: xsbt/Runner$$anonfun$run$1.class
+SHA1-Digest: Q9wa42Bd8WktOu0RsAy6VOoMchI=
+
+Name: xsbt/Dependency$ExtractDependenciesByInheritanceTraverser.class
+SHA1-Digest: 0iCqTc97kbnnEkACeWQrvIJLJ4s=
+
+Name: xsbt/CachedCompiler0$$anonfun$handleCompilationCancellation$2.cl
+ ass
+SHA1-Digest: HsaFPlA9vqXL8+zfmCmE/v5ZGjs=
+
+Name: xsbt/Compat$SymbolCompat.class
+SHA1-Digest: A53zRUcFycFROKhkmIhnETLcWG4=
+
+Name: xsbt/WeakLog.class
+SHA1-Digest: 6wUVVIju6KTn9lNe1yW3Lgf9xuc=
+
+Name: xsbt/Runner$forScope$.class
+SHA1-Digest: eka4EgE2voN8sjYuGalk6uM1iiA=
+
+Name: xsbt/CachedCompiler0$$anonfun$run$2.class
+SHA1-Digest: fFnCHc0igu/iMVG90dvv/yfRh9k=
+
+Name: xsbt/CachedCompiler0$$anonfun$2.class
+SHA1-Digest: hdy8J1NHOsgtV/wRyu4Q17ClF34=
+
+Name: xsbt/Runner$forScope$DocFactory$GlobalCompat.class
+SHA1-Digest: yShh0W06ktYuhEXqrVOTSKPWPfo=
+
+Name: xsbt/ExtractAPI$$anon$1.class
+SHA1-Digest: fuO7u3icURpfXPzac/LoPmyOtDU=
+
+Name: xsbt/ExtractAPI$$anonfun$parameterList$1$1.class
+SHA1-Digest: I5wl43NC57J788tW52cnVh4JttU=
+
+Name: xsbt/API.class
+SHA1-Digest: FAnvgPdIoZW84oUWzh443vR2Q0A=
+
+Name: xsbt/DelegatingReporter$WithPoint$1.class
+SHA1-Digest: GnYiI5CQzPpHxGAwiJW8yJiTvzU=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$findClass$1.class
+SHA1-Digest: w8+n5kxIe6ppfN6cQ0fVUsN6xcI=
+
+Name: LICENSE
+SHA1-Digest: MI85dbRehV0NqOfX0uvIHUE9CFs=
+
+Name: xsbt/ExtractAPI$$anonfun$mkVal$1$1.class
+SHA1-Digest: fhHDf1HC4OrTlpB6fqgsbIhqaZw=
+
+Name: xsbt/Message.class
+SHA1-Digest: eDcGeIlk5j5k9G0ta3IimaYLMFo=
+
+Name: xsbt/MakeSettings.class
+SHA1-Digest: e2iO0R9HLd8HFT3lkfrZrRXgrNw=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$mkClassLike$2.class
+SHA1-Digest: 8vImrheTGNaE20i2GMhkrX2c/ss=
+
+Name: xsbt/CachedCompiler0$$anonfun$run$3.class
+SHA1-Digest: WhEhy4FccqeR7Xni4/5JnWrC5qw=
+
+Name: xsbt/DelegatingReporter$$anon$1.class
+SHA1-Digest: TRtHaubmFlDlxnjn5yH7SZ+4UxI=
+
+Name: xsbt/CachedCompiler0$$anonfun$1.class
+SHA1-Digest: EG/WSN4HmSx5IrlxCrZQqCkSVfI=
+
+Name: xsbt/Compat$NullaryMethodTpe$.class
+SHA1-Digest: pQKbEfjpH3Vh3YBu9uQm1NQkgcU=
+
+Name: xsbt/Dependency$ExtractDependenciesTraverser.class
+SHA1-Digest: L5N/dhtj92tpus36UCML9z+8yZc=
+
+Name: xsbt/Runner.class
+SHA1-Digest: SOUmnqyJ9nxotE38myVRJyMRH/Y=
+
+Name: xsbt/DelegatingReporter.class
+SHA1-Digest: rNrLPI+tovVIQaSp0zUUU7AWMYM=
+
+Name: xsbt/CachedCompiler0$$anonfun$handleErrors$1.class
+SHA1-Digest: koJNZ1ATD580Hid2VoIGCWVzGTc=
+
+Name: xsbt/ExtractAPI$$anonfun$annotations$1$$anonfun$3.class
+SHA1-Digest: /dd+DwkBNQtMaZqF11qmhlqCEWQ=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$getOutputClass$2.class
+SHA1-Digest: 0h2zl91J6Oh0icGCMo5mYjJzRlA=
+
+Name: xsbt/LocateClassFile.class
+SHA1-Digest: MY6u/KI16ykVqclGqcjvaj26G9I=
+
+Name: xsbt/ExtractAPI$$anonfun$2.class
+SHA1-Digest: jiXFEpJv8rmuZSgwDPz9RUpf8RU=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$getOutputClass$3.class
+SHA1-Digest: 3bIqGCS5m9bZRuJDagcVqUhHfv4=
+
+Name: xsbt/InterfaceCompileFailed.class
+SHA1-Digest: g27qJ1rRmj0q1GLwLI36RnkYkaM=
+
+Name: xsbt/ExtractAPI$Constants$.class
+SHA1-Digest: YF4d6AFkv4RJPke2nv9EN73K4kk=
+
+Name: xsbt/CachedCompiler0$Compiler$sbtDependency$.class
+SHA1-Digest: FUtaLqlakkO5k1t3S3KD0+2z7c0=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$logUnreportedWarnings$1.c
+ lass
+SHA1-Digest: 8Hhw0lMq/LZ796yEHjcbcFzAWKo=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$annotations$1.class
+SHA1-Digest: NF7Q4nDjtBkeuymFz5sJNfX+fbI=
+
+Name: xsbt/ExtractAPI$$anonfun$removeConstructors$1.class
+SHA1-Digest: /pOh9+iWvyPmauybo8KHltizTOw=
+
+Name: xsbt/CompilerInterface.class
+SHA1-Digest: 3DfMTn9pBG8Xoi1+9gbE5j4rq9Q=
+
+Name: xsbt/Dependency$$anonfun$xsbt$Dependency$$extractDependenciesByM
+ emberRef$1.class
+SHA1-Digest: hHEv6zTj5KbYBGqmTfQ0KGSo/mc=
+
+Name: xsbt/Compat.class
+SHA1-Digest: IT5UKoEWTMqL1iuKShMBZ/L5g5g=
+
+Name: xsbt/Dependency$ExtractDependenciesByMemberRefTraverser$$anonfun
+ $1.class
+SHA1-Digest: DE/mczcEn3YpwGn+DMrVGsW26UE=
+
+Name: LICENSE_Scala
+SHA1-Digest: aUOwrsdHPI+AeEQYI4h9wrtCcnk=
+
+Name: xsbt/ExtractAPI$$anonfun$1.class
+SHA1-Digest: tKYOXgQ3zIDeahJG1qqtGPhMrak=
+
+Name: xsbt/Dependency$DependencyPhase.class
+SHA1-Digest: TFbZAdrE8Avivz8HbFYmHq+Dcqs=
+
+Name: xsbt/Dependency.class
+SHA1-Digest: X1SKpbqLXH7pcZ6v2OElnnJWLZo=
+
+Name: xsbt/LocateClassFile$$anonfun$classFile$1.class
+SHA1-Digest: CA1y58F8oNwHSP/selfW7bL1CCo=
+
+Name: xsbt/ConsoleInterface$$anon$2.class
+SHA1-Digest: rfu7CFRRVaw9nNqlpHJq8nik6nU=
+
+Name: xsbt/ExtractUsedNames$$anonfun$xsbt$ExtractUsedNames$$handleTree
+ Node$1$1.class
+SHA1-Digest: 3VIip5bxLUDP3vZK2HVTLbxy4Zs=
+
+Name: xsbt/API$ApiPhase$$anonfun$processScalaUnit$1.class
+SHA1-Digest: C1uCkXK4uwxfgpIS4vLeytiY7uA=
+
+Name: xsbt/CachedCompiler0$Compiler$sbtAnalyzer$.class
+SHA1-Digest: VnUwxCke/IeGnyx2TuJ3dR2gF1Q=
+
+Name: xsbt/ScaladocInterface.class
+SHA1-Digest: KgVB2S0LgobCHB+BGJuLIjJQwVw=
+
+Name: xsbt/ExtractAPI$existentialRenamings$$anonfun$enterExistentialTy
+ peVariables$1.class
+SHA1-Digest: BaNSnjbjTFHwak4IuQu4fzfqWEU=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$mkClassLike$1.class
+SHA1-Digest: mVEFuddnkG1jMO4cyhvcLAwpaTE=
+
+Name: xsbt/ExtractAPI$$anonfun$mkStructure$1.class
+SHA1-Digest: xuAQNaWkMRwgap5XYm2GR2CpfQg=
+
+Name: xsbt/ExtractAPI$$anonfun$xsbt$ExtractAPI$$annotation$1.class
+SHA1-Digest: KJqblIzvPnLRBFCOq7CFW5unvok=
+
+Name: xsbt/WeakLog$$anonfun$apply$2.class
+SHA1-Digest: VaXmx6LGNDjZMnbroSYeEQUQsdo=
+
+Name: xsbt/ConsoleInterface$$anonfun$run$2.class
+SHA1-Digest: 0Gc+N5kRteblQSkG+pBVW3AxYBY=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2.class
+SHA1-Digest: E8bB9XmtPJegsAvnUo0oez3z8ts=
+
+Name: xsbt/CachedCompiler0$$anonfun$run$1.class
+SHA1-Digest: 33uJvSEf6xQAnegkKZr6i41JHp0=
+
+Name: xsbt/CachedCompiler0$$anon$2.class
+SHA1-Digest: p1ia8vpXxaiuTzcxQxPA7RGikC8=
+
+Name: xsbt/Analyzer$AnalyzerPhase.class
+SHA1-Digest: T6Cqz3ZfdhS+iF0RMsqK13J98ug=
+
+Name: xsbt/DelegatingReporter$.class
+SHA1-Digest: 5MB3ZtTQY5FzAQPhTW41ddgjPpY=
+
+Name: xsbt/ConsoleInterface$$anon$2$$anonfun$bind$1$2.class
+SHA1-Digest: OWVgm/j6+yDdF28wdvLqQyRldC4=
+
+Name: xsbt/ExtractAPI$existentialRenamings$$anonfun$leaveExistentialTy
+ peVariables$1.class
+SHA1-Digest: HiKTOY18QVvUvYCsFzKaSmSY0ls=
+
+Name: xsbt/Dependency$ExtractDependenciesByMemberRefTraverser$$anonfun
+ $traverse$1.class
+SHA1-Digest: pYh6MMcDWr3QrIiqkJyJI8bP0Hc=
+
+Name: xsbt/Analyzer$AnalyzerPhase$$anonfun$run$1.class
+SHA1-Digest: 5S2Z3/V5VdQdFlh7vcTW7+09F90=
+
+Name: xsbt/MakeSettings$$anonfun$1$$anonfun$apply$2.class
+SHA1-Digest: zVNlXoMNibyltOwxXRhxgoVQPhM=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$xsbt$Dep
+ endency$DependencyPhase$$anonfun$$processDependency$1$1$$anonfun$appl
+ y$6.class
+SHA1-Digest: g5aXY0Xc/2Js7U9P/iwz2m3jqZE=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$findClass$2$$anonfun$appl
+ y$5.class
+SHA1-Digest: E8sUbeV22T+1seGpykk9xsPlUdw=
+
+Name: xsbt/CachedCompiler0$Compiler$apiExtractor$.class
+SHA1-Digest: ewup+QUujl2e2w1UgZrTg3HRvz8=
+
+Name: xsbt/Runner$forScope$DocFactory$compiler$.class
+SHA1-Digest: qmP8FwMpKfdYMaEsowE9BQ0gE+I=
+
+Name: xsbt/Analyzer$AnalyzerPhase$$anonfun$run$2$$anonfun$apply$1$$ano
+ nfun$addGenerated$1$1.class
+SHA1-Digest: qg9dwWv1OEqGTO7Gpyp1K0LugXo=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$2.
+ class
+SHA1-Digest: jc/qqIEp2pzzPHxW5KBLSueoHqQ=
+
+Name: xsbt/Analyzer$AnalyzerPhase$$anonfun$run$2$$anonfun$apply$1$$ano
+ nfun$addGenerated$1$2.class
+SHA1-Digest: 1Dh2C4oK2wLs4Gc31fFh2PSUKNk=
+
+Name: xsbt/ConsoleInterface$$anonfun$run$1.class
+SHA1-Digest: 5gQrbW6TGDOaf5bkkzkEs+KzD3s=
+
+Name: xsbt/Dependency$DependencyPhase$$anonfun$run$2$$anonfun$apply$5.
+ class
+SHA1-Digest: R0MPqXmc+7+E52dP/fdrRLGU2cE=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$findOnClassPath$1.class
+SHA1-Digest: zOdjS43Nv4v8dNQqu6SyEl2MY4c=
+
+Name: xsbt/ExtractAPI$$anonfun$mkVar$1$1.class
+SHA1-Digest: rpScCQ0TS+GMZvNyOuJhPgXw+/8=
+
+Name: xsbt/LocateClassFile$$anonfun$isTopLevelModule$1.class
+SHA1-Digest: NemwHlkLyHhTX1XFF4VQX84f2y4=
+
+Name: xsbt/ExtractAPI$$anonfun$mkStructure$3.class
+SHA1-Digest: o+99bNyYxZmzLYqNpsv7tTRNo/k=
+
+Name: xsbt/Dependency$ExtractDependenciesByInheritanceTraverser$$anonf
+ un$traverse$3.class
+SHA1-Digest: GaKiPRwA+Cn1fL4VK3Pf3m4eGtA=
+
+Name: xsbt/Dependency$.class
+SHA1-Digest: DM4NPc01ND8M5pmvkeNOY055NQo=
+
+Name: xsbt/Dependency$CollectTypeTraverser.class
+SHA1-Digest: U4eqgkh1CCvGZU40g8pmLi02UQ0=
+
+Name: xsbt/LocateClassFile$$anonfun$classFile$2.class
+SHA1-Digest: XvWFX192NwJ4raG2ffnfHrnwjuM=
+
+Name: xsbt/Command$.class
+SHA1-Digest: BUS1ehXSrfesd8ShqPtXPlywraM=
+
+Name: xsbt/ExtractAPI$$anonfun$mkStructure$2.class
+SHA1-Digest: 5uuwN/GeuiTnyL5GnJPH2orclj8=
+
+Name: xsbt/CachedCompiler0$Compiler$$anonfun$logUnreportedWarnings$2$$
+ anonfun$apply$3.class
+SHA1-Digest: ETTtQNJSuvRx909Pn1t03YB/5ZI=
+
+Name: xsbt/CachedCompiler0$$anonfun$4.class
+SHA1-Digest: 1UrTof+/jqIazQhRQYYavdDMt+4=
+
+Name: xsbt/CachedCompiler0$$anon$1.class
+SHA1-Digest: sxHLM2oD4RJmaBnRU1YBx5XUP/E=
+

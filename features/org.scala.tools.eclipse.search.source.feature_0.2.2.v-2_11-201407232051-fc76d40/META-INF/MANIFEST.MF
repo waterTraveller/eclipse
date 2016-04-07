@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_65
+Built-By: dragos
+Created-By: Apache Maven
+Archiver-Version: Plexus Archiver
+
+Name: META-INF/maven/org.scala.tools.eclipse/org.scala.tools.eclipse.s
+ earch.source.feature/pom.properties
+SHA1-Digest: 5EiRXqGBiPTnWn4BwmnL9hs7EVs=
+
+Name: feature.xml
+SHA1-Digest: 41j2PHOXiH9v4wleqo0Lw30MRuc=
+
+Name: META-INF/maven/org.scala.tools.eclipse/org.scala.tools.eclipse.s
+ earch.source.feature/pom.xml
+SHA1-Digest: anpgiXLdjBmOck5hl7TS6MkgKXw=
+

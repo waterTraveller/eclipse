@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.holon.statistic.lines"
+   name="%pluginName"
+   version="1.0.0"
+   provider-name="%providerName"
+   class="org.holon.statistic.StatisticPlugin">
+
+   <runtime>
+      <library name="lines.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+   <requires>
+      <import plugin="org.eclipse.core.runtime.compatibility"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+   </requires>
+
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="%Statistic.viewCategory"
+            id="org.holon.statistic">
+      </category>
+      <view
+            name="%LinesView.name"
+            icon="icons/full/eview16/linesview.gif"
+            category="org.holon.statistic"
+            class="org.holon.statistic.views.LinesView"
+            id="org.holon.statistic.views.Lines">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.ui.resourcePerspective">
+         <view
+               ratio="0.5"
+               relationship="right"
+               id="org.holon.statistic.views.Lines">
+         </view>
+      </perspectiveExtension>
+   </extension>
+
+</plugin>
